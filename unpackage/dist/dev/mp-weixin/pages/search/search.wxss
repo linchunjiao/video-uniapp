@@ -1,0 +1,86 @@
+/* 搜索框start */
+.search-block {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	        justify-content: flex-start;
+	padding: 18rpx 20rpx;
+	background-color: #eee;
+	width: 100%;
+	/* 固定搜索栏 */
+	position: fixed;
+	top: 50;
+	z-index: 10;
+}
+.searth-ico-wapper {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.search-ico {
+	width: 40rpx;
+	height: 40rpx;
+	padding-top: 4rpx;
+}
+.search-clear {
+	width: 30rpx;
+	height: 30rpx;
+	opacity: 0;
+}
+.searth-clear-wapper {
+	width: 40rpx;
+	padding: 6rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.searth-text {
+	font-size: 18px;
+	width: 630rpx;
+}
+/* 搜索框end */
+/* 预告片列表start */
+.movie-list {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	        justify-content: flex-start;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	padding:100rpx 20rpx 20rpx;
+}
+.movie-wapper {
+	padding: 10rpx 16rpx;
+}
+.poster {
+	width: 200rpx;
+	height: 270rpx;
+}
+/* 预告片列表end */
+

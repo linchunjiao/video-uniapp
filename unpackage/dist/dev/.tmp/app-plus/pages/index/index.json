@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "超英影院",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "trailer-stars": "/components/index/childcomps/trailerStars"
+  }
+}

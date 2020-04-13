@@ -1,0 +1,21 @@
+
+.movie-score-wapper.data-v-ca9ff64c {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+}
+.star-ico.data-v-ca9ff64c {
+	width: 22rpx;
+	height: 22rpx;
+	margin-top: 6rpx;
+}
+.movie-score.data-v-ca9ff64c {
+	font-size: 12px;
+	color: #646464;
+	margin-left: 8rpx;
+}
+

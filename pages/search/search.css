@@ -1,0 +1,56 @@
+/* 搜索框start */
+.search-block {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding: 18upx 20upx;
+	background-color: #eee;
+	width: 100%;
+	/* 固定搜索栏 */
+	position: fixed;
+	top: 50;
+	z-index: 10;
+}
+.searth-ico-wapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center; 
+}
+.search-ico {
+	width: 40upx;
+	height: 40upx;
+	padding-top: 4upx;
+}
+.search-clear {
+	width: 30upx;
+	height: 30upx;
+	opacity: 0;
+}
+.searth-clear-wapper {
+	width: 40upx;
+	padding: 6upx;
+	display: flex;
+	flex-direction: column;
+	justify-content: center; 
+}
+.searth-text {
+	font-size: 18px;
+	width: 630upx;
+}
+/* 搜索框end */
+/* 预告片列表start */
+.movie-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	padding:100upx 20upx 20upx;
+}
+.movie-wapper {
+	padding: 10upx 16upx;
+}
+.poster {
+	width: 200upx;
+	height: 270upx;
+}
+/* 预告片列表end */

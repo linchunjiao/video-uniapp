@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "新影预告",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "trailer-stars": "/components/index/trailerStars"
+  }
+}

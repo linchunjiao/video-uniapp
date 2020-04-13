@@ -1,0 +1,1 @@
+<view class="block"><image class="cover" src="{{cover}}" mode="widthFix" data-event-opts="{{[['tap',[['operator',['$event']]]]]}}" bindtap="__e"></image></view>
