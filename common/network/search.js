@@ -5,7 +5,7 @@ export function getMovieList (keywords="", page="", pageSize=""){
 		url: serverUrl + '/search/list?keywords=' + keywords + '&page='+ page + '&pageSize='+ pageSize,
 		method: "POST",
 		data: {
-			qq: '38833964'
+			qq: '503766166'
 		},
 		header: {
 			'content-type': 'application/x-www-form-urlencoded'

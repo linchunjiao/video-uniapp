@@ -292,6 +292,11 @@ var _meInfo = __webpack_require__(/*! common/network/meInfo.js */ 74);function _
         data, 2),error = _data[0],res = _data[1];
         if (res.data.status == 200) {
           uni.removeStorageSync("globalUser");
+          uni.showToast({
+            title: '退出登录成功',
+            mask: false,
+            duration: 1000 });
+
           uni.switchTab({
             url: "../me/me" });
 

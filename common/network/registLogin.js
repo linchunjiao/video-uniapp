@@ -5,7 +5,7 @@ export function getRegistLogin (username, password){
 		url: serverUrl + '/user/registOrLogin',
 		method: "POST",
 		data: {
-			qq: '38833964',
+			qq: '503766166',
 			"username": username,
 			"password": password
 		},

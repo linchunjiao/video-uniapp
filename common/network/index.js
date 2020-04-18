@@ -5,7 +5,7 @@ export function getHomeSwiper (){
 		url: serverUrl + '/index/carousel/list', 
 		method: "POST",
 		data: {
-			qq: '38833964'
+			qq: '503766166'
 		},
 		header: {
 			'content-type': 'application/x-www-form-urlencoded' //自定义请求头信息
@@ -18,7 +18,7 @@ export function getHomeRecommon (){
 		url: serverUrl + '/index/movie/hot?type=trailer', 
 		method: "POST",
 		data: {
-			qq: '38833964'
+			qq: '503766166'
 		},
 		header: {
 			'content-type': 'application/x-www-form-urlencoded'
@@ -31,7 +31,7 @@ export function getHomeHot (){
 		url: serverUrl + '/index/movie/hot?type=trailer', 
 		method: "POST",
 		data: {
-			qq: '38833964'
+			qq: '503766166'
 		},
 		header: {
 			'content-type': 'application/x-www-form-urlencoded' 
@@ -44,7 +44,7 @@ export function getLikeList (){
 		url: serverUrl + '/index/guessULike', 
 		method: "POST",
 		data: {
-			qq: '38833964'
+			qq: '503766166'
 		},
 		header: {
 			'content-type': 'application/x-www-form-urlencoded'

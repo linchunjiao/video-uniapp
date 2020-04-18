@@ -6,13 +6,13 @@
 			</view>
 			<view class="info-wapper">
 				<label class="words-lbl">账号</label>
-				<input name="username" type="text" value="" class="input" placeholder="请输入用户名" placeholder-class="graywords"/>
+				<input name="username" type="text" value="" class="input" placeholder="请输入用户名" placeholder-class="graywords" maxlength="10"/>
 			</view>
 			<view class="info-wapper" style="margin-top: 40upx;">
 				<label class="words-lbl">密码</label>
-				<input name="password" type="text" value="" password="true" class="input" placeholder="请输入密码" placeholder-class="graywords"/>
+				<input name="password" type="text" value="" password="true" class="input" placeholder="请输入密码" placeholder-class="graywords" maxlength="6"/>
 			</view>
-			<button type="primary" form-type="submit" style="margin-top: 60upx;width: 90%;">注册/登录</button>
+			<button type="primary" form-type="submit" style="margin-top: 60upx; width: 90%;">注册/登录</button>
 		</form>
 		<!-- 第三方登录H5不支持，所以隐藏掉 -->
 		<!-- #ifndef H5 -->
@@ -192,6 +192,11 @@
 							registTime: "2019-08-28T07:01:20.030+0000",
 						};
 						uni.setStorageSync("globalUser", userInfo);
+						uni.showToast({
+							title: '登录成功',
+							mask: false,
+							duration: 1000
+						})
 						uni.switchTab({
 							url: "../me/me"
 						})

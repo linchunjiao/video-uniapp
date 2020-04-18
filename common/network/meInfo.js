@@ -5,7 +5,7 @@ export function getRegistLogin (globalUser){
 		url: serverUrl + '/user/logout?userId=' + globalUser.id,
 		method: "POST",
 		data: {
-			qq: '38833964',
+			qq: '503766166',
 		},
 		header: {
 			'content-type': 'application/x-www-form-urlencoded'

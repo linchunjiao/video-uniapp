@@ -159,6 +159,11 @@
 					var [error, res] = data;
 					if(res.data.status == 200) {
 						uni.removeStorageSync("globalUser");
+						uni.showToast({
+							title: '退出登录成功',
+							mask: false,
+							duration: 1000
+						})
 						uni.switchTab({
 							url: "../me/me"
 						});

@@ -325,6 +325,11 @@ var _registLogin = __webpack_require__(/*! common/network/registLogin.js */ 65);
             registTime: "2019-08-28T07:01:20.030+0000" };
 
           uni.setStorageSync("globalUser", userInfo);
+          uni.showToast({
+            title: '登录成功',
+            mask: false,
+            duration: 1000 });
+
           uni.switchTab({
             url: "../me/me" });
 
